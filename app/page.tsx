@@ -8,9 +8,10 @@ export default function Home() {
              autoPlay
              muted
              playsInline
+             poster="/poster.png"
              preload="metadata"
       >
-        <source src="/background-video.mp4#t=1" type="video/mp4" />
+        <source src="/background-video.mp4" type="video/mp4" />
       </video>
 
       <div className="flex flex-col justify-center items-center">
