@@ -10,16 +10,16 @@
       <div
         className="mt-10 md:mt-15 lg:mt-20 flex flex-col md:flex-row justify-center items-stretch gap-4 md:gap-5 lg:gap-6">
         <div
-          className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-8 px-12 gap-5 ${animate && "animate-fly-in-l"}`}>
-          <span className="text-light-blue text-5xl font-semibold">$450</span>
+          className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-8 px-12 gap-5 group ${animate && "transition-all animate-fly-in-l hover:scl-105"}`}>
+          <span className={`bg-clip-text text-transparent bg-shine bg-300% text-5xl font-semibold ${animate && "group-hover:animate-rotate-background-shine"}`}>$450</span>
           <ul className="self-start text-dark-blue list-disc">
             <li>Volunteer</li>
           </ul>
         </div>
 
         <div
-          className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-8 px-12 gap-5 ${animate && "animate-fly-in-tl"}`}>
-          <span className="text-light-blue text-5xl font-semibold">$650</span>
+          className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-8 px-12 gap-5 group ${animate && "transition-all animate-fly-in-tl hover:scl-105"}`}>
+          <span className={`bg-clip-text text-transparent bg-shine bg-300% text-5xl font-semibold ${animate && "group-hover:animate-rotate-background-shine"}`}>$650</span>
           <ul className="self-start text-dark-blue list-disc">
             <li>Volunteer</li>
             <li>Surf</li>
@@ -27,8 +27,8 @@
         </div>
 
         <div
-          className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-8 px-12 gap-5 ${animate && "animate-fly-in-r"}`}>
-          <span className="text-light-blue text-5xl font-semibold">$800</span>
+          className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-8 px-12 gap-5 group ${animate && "transition-all animate-fly-in-r hover:scl-105"}`}>
+          <span className={`bg-clip-text text-transparent bg-shine bg-300% text-5xl font-semibold ${animate && "group-hover:animate-rotate-background-shine"}`}>$800</span>
           <ul className="self-start text-dark-blue list-disc">
             <li>Volunteer</li>
             <li>Surf</li>

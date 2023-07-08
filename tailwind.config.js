@@ -16,12 +16,14 @@ module.exports = {
       },
       backgroundSize: {
         "300%": "300%",
+        "200%": "200%",
       },
       backgroundImage: {
         "green-blue-gradient":
           "radial-gradient(26.76% 55.52% at 86.73% -15.86%, #3f7dda 6.65%, transparent), radial-gradient(farthest-side at bottom left, #c7fd61 6.65%, #81dde5 100%)",
         aurora: "radial-gradient(18% 28% at 24% 50%, #cfeafd 7%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #cfeafd 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #cfeafd 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #81dde5 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #3f7dda 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #b4e556 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #3f7dda 100%)",
-        wevol: "linear-gradient(70deg, rgb(129, 221, 229) 10%, rgb(63, 125, 218) 20%, rgb(63, 125, 218) 55%, rgb(129, 221, 229) 64%, rgb(129, 221, 229) 74.5%, rgb(63, 125, 218) 84.5%)",
+        wevol: "linear-gradient(70deg, #81DDE5 10%, #3F7DDA 20%, #3F7DDA 55%, #81DDE5 64%, #81DDE5 73.5%, #3F7DDA 83.5%)",
+        shine: "linear-gradient(110deg, #3f7dda 0%, #3f7dda 33%, #c7fd61 40%, #3f7dda 47%, #3f7dda 100%)",
       },
       contrast: {
         40: ".40",
@@ -85,10 +87,10 @@ module.exports = {
         },
         backgroundRotation: {
           "0%": {
-            backgroundPosition: "0 0",
+            backgroundPosition: "100% 0",
           },
           "100%": {
-            backgroundPosition: "100% 0",
+            backgroundPosition: "0 0",
           },
         },
       },
@@ -100,6 +102,7 @@ module.exports = {
         "fly-in-b": "fly-in-b 2s cubic-bezier(0.4, 0, 0.2, 1) forwards",
         "fade-in": "fade-in 2s ease-in-out forwards",
         "rotate-background": "backgroundRotation 3s cubic-bezier(.78,.1,.1,.98) infinite",
+        "rotate-background-shine": "backgroundRotation .5s cubic-bezier(0,.69,.99,.28) 1 forwards",
       },
     },
   },
