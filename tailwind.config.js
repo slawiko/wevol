@@ -11,6 +11,7 @@ module.exports = {
         "dark-blue": "#2d5ca2",
         "light-blue": "#81dde5",
         "light-light-blue": "#cfeafd",
+        green: "#b4e556",
         "light-green": "#c7fd61",
         white: "#ffffff",
       },
@@ -23,7 +24,7 @@ module.exports = {
           "radial-gradient(26.76% 55.52% at 86.73% -15.86%, #3f7dda 6.65%, transparent), radial-gradient(farthest-side at bottom left, #c7fd61 6.65%, #81dde5 100%)",
         aurora: "radial-gradient(18% 28% at 24% 50%, #cfeafd 7%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #cfeafd 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #cfeafd 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #81dde5 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #3f7dda 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #b4e556 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #3f7dda 100%)",
         wevol: "linear-gradient(70deg, #81DDE5 10%, #3F7DDA 20%, #3F7DDA 55%, #81DDE5 64%, #81DDE5 73.5%, #3F7DDA 83.5%)",
-        shine: "linear-gradient(110deg, #3f7dda 0%, #3f7dda 33%, #c7fd61 40%, #3f7dda 47%, #3f7dda 100%)",
+        shine: "linear-gradient(110deg, #2d5ca2 0%, #2d5ca2 33%, #c7fd61 40%, #2d5ca2 47%, #2d5ca2 100%)",
       },
       contrast: {
         40: ".40",
