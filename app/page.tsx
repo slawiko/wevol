@@ -2,8 +2,10 @@ import PricingSection from "@/app/pricing";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <video className="fixed inset-0 w-full h-full object-cover contrast-50 -z-10"
+    <main className="">
+      <div className="fixed bg-aurora min-h-screen min-w-full">
+      </div>
+      <video className="min-h-screen absolute inset-0 w-full h-full object-cover hue-rotate-[290deg] contrast-50"
              width="100%"
              height="100%"
              loop

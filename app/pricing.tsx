@@ -1,6 +1,6 @@
-  export default function PricingSection({ className, animate }: { className?: string, animate?: boolean }) {
+export default function PricingSection({ className, animate }: { className?: string, animate?: boolean }) {
   return (
-    <div className={`bg-aurora flex flex-col items-center overflow-hidden ${className ?? ""}`}>
+    <div className={`flex flex-col items-center overflow-hidden px-4 lg:px-10 ${className ?? ""}`}>
       <div className={`text-2xl md:text-3xl lg:text-4xl text-white mt-10 lg:mt-40 ${animate && "animate-fade-in"}`}>
         Week program
       </div>
@@ -20,7 +20,7 @@
 
         <div
           className={`bg-white rounded-2xl shadow-xl shrink-0 flex flex-col items-center py-4 px-10 gap-2 md:gap-4 group ${animate && "transition-all animate-fly-in-tl hover:scl-105"}`}>
-          <span className="text-dark-blue text-lg md:text-xl">Option 3</span>
+          <span className="text-dark-blue text-lg md:text-xl">Option 2</span>
           <span className={`bg-clip-text text-transparent bg-shine bg-300% text-3xl md:text-4xl lg:text-5xl font-semibold ${animate && "group-hover:animate-rotate-background-shine"}`}>$650</span>
           <ul className="self-start text-dark-blue list-disc">
             <li>Volunteer</li>
