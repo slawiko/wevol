@@ -1,5 +1,4 @@
 import PricingSection from "@/app/pricing";
-import { Metadata, ResolvingMetadata } from "next";
 
 export default function Home() {
   return (
@@ -30,11 +29,4 @@ export default function Home() {
       <PricingSection className="min-h-screen" animate />
     </main>
   );
-}
-
-export function generateMetadata(params: unknown, parent: ResolvingMetadata): Metadata {
-  return {
-    title: "WeVOL",
-    description: "WeVOL",
-  };
 }
